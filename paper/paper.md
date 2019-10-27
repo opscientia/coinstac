@@ -50,6 +50,7 @@ there is no pooling of data it also preserves the privacy of individual datasets
 
 # Features
 ``COINSTAC`` removes the barriers to collaborative analysis by:
+
 1. decentralizing analyses and computation
 
 * Each user performs analyses/pipelines/etc all on their own computers. bits and pieces of each users' output may be sent to a central compute node
