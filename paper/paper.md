@@ -14,7 +14,7 @@ authors:
     affiliation: 1
 affiliations:
  - name: Center for Translational Research in Neuroimaging and Data Science,
- Georgia State University, Georgia Institute of Technology, Emory University, Atlanta, GA, USA
+ :Georgia State University, Georgia Institute of Technology, Emory University, Atlanta, GA, USA
    index: 1
  - name: Institution 2
    index: 2
