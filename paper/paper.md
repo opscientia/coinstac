@@ -15,8 +15,6 @@ authors:
 affiliations:
  - name: Center for Translational Research in Neuroimaging and Data Science, Georgia State University, Georgia Institute of Technology, Emory University, Atlanta, GA, USA
    index: 1
- - name: Institution 2
-   index: 2
 date: 27 October 2019
 bibliography: paper.bib
 
@@ -53,11 +51,17 @@ there is no pooling of data it also preserves the privacy of individual datasets
 # Features
 ``COINSTAC`` removes the barriers to collaborative analysis by:
 1. decentralizing analyses and computation
+
 * Each user performs analyses/pipelines/etc all on their own computers. bits and pieces of each users' output may be sent to a central compute node
+
 * A central compute node performs a complimentary component of the group analysis, generally a Machine Learning algorithm. this node may trigger adjusted computations on users' machines, generally in effort to improve a model, which the research is trying to predict!
+
 2. not synchronizing full datasets. instead, synchronizing only resultant analysis metrics
+
 * As previously discussed, central compute nodes aggregate these metrics, and attempt to draw conclusions from the contributor swarm
+
 * Because machine learning algorithms can be designed to model outcomes via artifacts of your analysis Pipelines, we keep your data safely and conveniently on your own machine, untouched.
+
 3. applying differential privacy strategies to truly anonymize private data, whilst still permitting collaboration.
 
 # Summary
@@ -65,8 +69,8 @@ In conclusion, ``COINSTAC`` strongly encourages the use of decentralized algorit
 
 # Acknowledgements
 
-This work was funded by the National Institutes of Health (grant numbers: P20GM103472/5P20RR021938, 
-R01EB005846, 1R01DA040487) and the National Science Foundation (grant numbers: 1539067 and 1631819).
+This work was funded by the National Institutes of Health (grant numbers: R01EB005846, 1R01DA040487,
+P20GM103472/5P20RR021938) and the National Science Foundation (grant numbers: 1539067 and 1631819).
 In addition, the authors would like to acknowledge the efforts of many unnamed personnel over the years
 who contributed to the development of ``COINSTAC``.
 
