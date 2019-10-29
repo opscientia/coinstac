@@ -42,7 +42,7 @@ data-sharing such as negotiating multiple data sharing agreements, can be cumber
 In addition, there are also significant data transfer, organization and computational 
 challenges. The bottomline being collaborative group research requires a great deal of 
 coordination. Human and business factors can hamper research from happening at a pace 
-that we are able to handle! Constraints may even forbid group research to occur at all.
+that we are able to handle, maybe even forbidding group research to occur at all.
 
 # Software
 ``COINSTAC`` [@plis2016coinstac] is a web-based framework titled Collaborative Informatics and Neuroimaging 
