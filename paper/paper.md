@@ -10,6 +10,12 @@ authors:
     affiliation: 1 # (Multiple affiliations must be quoted)
   - name: Ross Kelly
     affiliation: 1
+  - name: Eric Verner
+    affiliation: 1
+  - name: Anand D. Sarwate
+    affiliation: 1
+  - name: Sergey M. Plis
+    affiliation: 1
   - name: Vince D. Calhoun
     affiliation: 1
 affiliations:
@@ -43,27 +49,27 @@ that we are able to handle! Constraints may even forbid group research to occur 
 Suite Toolkit for Anonymous Computation that addresses the aforementioned issues. It provides a platform
 to analyze data stored locally across multiple organizations without the need for pooling the data at any point 
 during the analysis. It is intended to be an ultimate one-stop shop by which researchers can build 
-any statistical [@ming2017coinstac] or machine learning model [@gazula2018decentralized] collaboratively in a decentralized fashion. This framework 
-implements a message passing infrastructure that will allow large scale analysis of decentralized data 
+statistical [@ming2017coinstac] or machine learning models [@gazula2018decentralized] collaboratively in a decentralized fashion. This framework 
+implements a message passing infrastructure that allows large scale analysis of decentralized data 
 with results on par with those that would have been obtained if the data were in one place. Since, 
-there is no pooling of data it also preserves the privacy of individual datasets.
+there is no pooling of data it also preserves the privacy of individual datasets. We also offer differentially private algorithms for enhanced protection. Computations can be local or decentralized and are deployed using a containerized model. we also offer a simulation environment for algorithm developers to build COINSTAC computations. These computations can then be made available within the COINSTAC platform.
 
 # Features
 ``COINSTAC`` removes the barriers to collaborative analysis by:
 
 1. decentralizing analyses and computation
 
-* Each user performs analyses/pipelines/etc all on their own computers. bits and pieces of each users' output may be sent to a central compute node
+* Each user performs analyses/pipelines/etc all on their own computers. bits and pieces of each users' output may be sent to a central compute node. Over a dozen local and decentralized computations/algorithms have been developed already with more coming.
 
-* A central compute node performs a complimentary component of the group analysis, generally a Machine Learning algorithm. this node may trigger adjusted computations on users' machines, generally in effort to improve a model, which the research is trying to predict!
+* A central compute node performs a complimentary component of the group analysis by coordinating between the various data nodes participating in a consortium. This node may trigger adjusted computations on users' machines, generally in effort to improve a model.
 
-2. not synchronizing full datasets. instead, synchronizing only resultant analysis metrics
+2. not synchronizing full datasets. instead, synchronizing only aggregate level analysis metrics (e.g. the gradients of a machine learning algorithm)
 
 * As previously discussed, central compute nodes aggregate these metrics, and attempt to draw conclusions from the contributor swarm
 
 * Because machine learning algorithms can be designed to model outcomes via artifacts of your analysis Pipelines, we keep your data safely and conveniently on your own machine, untouched.
 
-3. applying differential privacy strategies to truly anonymize private data, whilst still permitting collaboration.
+3. applying differential privacy strategies to further enhance anonymization of private data, whilst still permitting collaboration.
 
 # Summary
 In conclusion, ``COINSTAC`` strongly encourages the use of decentralized algorithms in large neuroimaging studies over systems that are optimized for large-scale centralized data processing.
