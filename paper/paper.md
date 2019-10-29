@@ -30,7 +30,7 @@ bibliography: paper.bib
 #aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
-# Statement of need
+# Summary
 
 Central to the field of neuroimaging is the development of techniques for making 
 sense of complex brain data. However, rapid technological advancements are pushing 
@@ -70,9 +70,6 @@ there is no pooling of data it also preserves the privacy of individual datasets
 * Because machine learning algorithms can be designed to model outcomes via artifacts of your analysis Pipelines, we keep your data safely and conveniently on your own machine, untouched.
 
 3. applying differential privacy strategies to further enhance anonymization of private data, whilst still permitting collaboration.
-
-# Summary
-In conclusion, ``COINSTAC`` strongly encourages the use of decentralized algorithms in large neuroimaging studies over systems that are optimized for large-scale centralized data processing.
 
 # Acknowledgements
 
