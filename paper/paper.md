@@ -10,10 +10,24 @@ authors:
     affiliation: 1 # (Multiple affiliations must be quoted)
   - name: Ross Kelly
     affiliation: 1
+  - name: Javier Romero
+    affiliation: 1
   - name: Eric Verner
     affiliation: 1
-  - name: Anand D. Sarwate
+  - name: Bradley T. Baker
     affiliation: 1
+  - name: Rogers F. Silva
+    affiliation: 1
+  - name: Hafiz Imtiaz
+    affiliation: 2
+  - name: Debbrata Kumar Saha
+    affiliation: 1
+  - name: Rajikha Raja
+    affiliation: 1
+  - name: Jessica A. Turner
+    affiliation: 1
+  - name: Anand D. Sarwate
+    affiliation: 2
   - name: Sergey M. Plis
     affiliation: 1
   - name: Vince D. Calhoun
@@ -21,6 +35,8 @@ authors:
 affiliations:
  - name: Center for Translational Research in Neuroimaging and Data Science, Georgia State University, Georgia Institute of Technology, Emory University, Atlanta, GA, USA
    index: 1
+ - name: Department of Electrical and Computer Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA
+   index: 2
 date: 27 October 2019
 bibliography: paper.bib
 
@@ -53,6 +69,8 @@ statistical [@ming2017coinstac] or machine learning models [@gazula2018decentral
 implements a message passing infrastructure that allows large scale analysis of decentralized data 
 with results on par with those that would have been obtained if the data were in one place. Since, 
 there is no pooling of data it also preserves the privacy of individual datasets. We also offer differentially private algorithms for enhanced protection. Computations can be local or decentralized and are deployed using a containerized model. we also offer a simulation environment for algorithm developers to build COINSTAC computations. These computations can then be made available within the COINSTAC platform.
+Other tools like CBRAIN [@sherif2014cbrain], Loris [@das2012loris], XNAT [@herrick2016xnat], OpenNeuro [@gorgolewski2017openneuro] exist in literature but we do not do a more detailed comparison as COINSTAC is, to our knowledge, the first of its kind application platform enabling decentralized analysis of brain imaging data. 
+
 
 # Features
 ``COINSTAC`` removes the barriers to collaborative analysis by:
@@ -76,6 +94,6 @@ there is no pooling of data it also preserves the privacy of individual datasets
 This work was funded by the National Institutes of Health (grant numbers: R01EB005846, 1R01DA040487,
 P20GM103472/5P20RR021938) and the National Science Foundation (grant numbers: 1539067 and 1631819).
 In addition, the authors would like to acknowledge the efforts of many unnamed personnel over the years
-who contributed to the development of ``COINSTAC``.
+who contributed to the development of ``COINSTAC``. In addition, the authors would like to acknowledge the contributions of Jing Ming, Sandeep R. Panta, Eswar Damaraju, Anees Abrol, Torran Kahleck, Dylan Wood, Chris Dieringer, Drew Landis, Cory Reed
 
 # References

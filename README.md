@@ -1,6 +1,6 @@
 # COINSTAC
 
-<img src="https://raw.githubusercontent.com/MRN-Code/coinstac/master/img/coinstac.png" height="75px">
+<img src="https://raw.githubusercontent.com/trendscenter/coinstac/master/img/coinstac.png" height="75px">
 
 [![DOI](https://zenodo.org/badge/52497909.svg)](https://zenodo.org/badge/latestdoi/52497909)
 
@@ -53,20 +53,20 @@ You may wonder why we haven't been doing this before!  Us too.  Let's get starte
 
 ## Getting Started
 - If you want to run COINSTAC as a user 
-  - Download the latest release for your operating system [here](https://github.com/MRN-Code/coinstac/releases).
-  - You can download sample Freesurfer data [here](https://github.com/MRN-Code/coinstac/releases/download/v3.1.10/20170425-coinstac-test-data.zip), which can be used in a regression.
-  - You can also download sample VBM data [here](https://github.com/MRN-Code/coinstac/files/2134308/coinstac_ssr_vbm_test_data.zip), which can be used in a regression.
-- If you are looking to contribute data, head over to [coinstac-ui](https://github.com/MRN-Code/coinstac/tree/master/packages/coinstac-ui).  There, you will be able to download the application.
+  - Download the latest release for your operating system [here](https://github.com/trendscenter/coinstac/releases).
+  - You can download sample Freesurfer data [here](https://github.com/trendscenter/coinstac/releases/download/v3.1.10/20170425-coinstac-test-data.zip), which can be used in a regression.
+  - You can also download sample VBM data [here](https://github.com/trendscenter/coinstac/files/2134308/coinstac_ssr_vbm_test_data.zip), which can be used in a regression.
+- If you are looking to contribute data, head over to [coinstac-ui](https://github.com/trendscenter/coinstac/tree/master/packages/coinstac-ui).  There, you will be able to download the application.
 
 - If you are a developer or scientist and want to design a decentralized computation, please see:
   - [DecentralizedComputation.md](DecentralizedComputation.md) for how to build your own `DecentralizedComputation`.
-  - [coinstac-simulator](https://github.com/MRN-Code/coinstac/tree/master/packages/coinstac-simulator) for how to test your freshly created `DecentralizedComputation`.
+  - [coinstac-simulator](https://github.com/trendscenter/coinstac/tree/master/packages/coinstac-simulator) for how to test your freshly created `DecentralizedComputation`.
   - "Under the Hood" below, if you want to understand how the system works.
   - **API Documentation** is formally available [here](http://mrn-code.github.io/coinstac/index.html#api-docs).
 
 ## Releases
 Binary releases for several platforms can be found here, under each version's assest tab:
-https://github.com/MRN-Code/coinstac/releases
+https://github.com/trendscenter/coinstac/releases
 
 ## Under The Hood
 Developer documentation and system design information may be found over in our [technical docs](./TECHNICAL.md).
