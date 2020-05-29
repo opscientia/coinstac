@@ -70,8 +70,6 @@ implements a message passing infrastructure that allows large scale analysis of 
 with results on par with those that would have been obtained if the data were in one place. Because
 there is no pooling of data, it can technically guarantee the privacy of individual datasets. However, we also offer differentially private algorithms for enhanced protection. Differential privacy is a framework to control the risk that individual data points can be inferred from the output of the algorithm [@dwork2014algorithmic]. Computations can be local or decentralized and are deployed using a containerized model. we also offer a simulation environment for algorithm developers to build COINSTAC computations. These computations can then be made available within the COINSTAC platform.
 
-![A graphical representation of decentralization in COINSTAC](coinstac-first-example.png)
-![A graphical representation of decentralization in COINSTAC](coinstac-first-example.png =250x100)
 <img src="coinstac-first-example.png" alt="A graphical representation of decentralization in COINSTAC" width="250"/>
 
 # Related Work
