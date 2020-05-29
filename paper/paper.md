@@ -70,7 +70,9 @@ implements a message passing infrastructure that allows large scale analysis of 
 with results on par with those that would have been obtained if the data were in one place. Because
 there is no pooling of data, it can technically guarantee the privacy of individual datasets. However, we also offer differentially private algorithms for enhanced protection. Differential privacy is a framework to control the risk that individual data points can be inferred from the output of the algorithm [@dwork2014algorithmic]. Computations can be local or decentralized and are deployed using a containerized model. we also offer a simulation environment for algorithm developers to build COINSTAC computations. These computations can then be made available within the COINSTAC platform.
 
-![Drag Racing](coinstac-first-example.png)
+![A graphical representation of decentralization in COINSTAC](coinstac-first-example.png)
+![A graphical representation of decentralization in COINSTAC](coinstac-first-example.png =250x100)
+<img src="coinstac-first-example.png" alt="A graphical representation of decentralization in COINSTAC" width="250"/>
 
 # Related Work
 In the past, data-specific collaborative efforts included either aggregating the data via a centralized data sharing repository or sharing data via agreement based collaborations. Frameworks such as ENIGMA [@thompson2014enigma] to some extent bypass the need for data agreements by performing a centrally coordinated analysis at each local site. Another framework called ViPAR [@carter2016vipar] tries to go one step further by, relying on open-source technologies, completely isolating the data at the local site but only pooling them via transfer to perform automated statistical analyses. However, the heterogeneity among the local analyses caused by adopting various data collection mechanisms or preprocessing methods can lead to inaccurate meta-analysis findings. Other tools like CBRAIN [@sherif2014cbrain], Loris [@das2012loris], XNAT [@herrick2016xnat], OpenNeuro [@gorgolewski2017openneuro] exist in literature but we do not do a more detailed comparison as COINSTAC is, to our knowledge, the first of its kind application platform enabling decentralized analysis of brain imaging data. 
@@ -78,7 +80,7 @@ In the past, data-specific collaborative efforts included either aggregating the
 # Features
 ``COINSTAC`` removes the barriers to collaborative analysis by:
 
-1. decentralizing analyses and computation
+1. Decentralizing analyses and computation
 
 * Each user performs analyses/pipelines/etc all on their own computers. bits and pieces of each users' output may be sent to a central compute node. Over a dozen local and decentralized computations/algorithms have been developed already with more coming.
 
