@@ -93,6 +93,9 @@ In the past, data-specific collaborative efforts have included either aggregatin
 
 * To protect against malicious embedded attacks inside computations, all computations made available in COINSTAC are manually vetted.
 
+# Example Usage
+
+In a recent study [@Gazula846386], the Global Imaging Genetics of Adolescents consortium performed a decentralized voxel-based morphometry analysis of structural magnetic resonance imaging data across two sites to examine the structural changes in the brain related to age, body mass index, and smoking. The code used for the analysis [@coinstacvbm] and sample data [@coinstacvbmsampledata] are publicly available on GitHub.
 
 # Acknowledgements
 
