@@ -104,4 +104,8 @@ P20GM103472/5P20RR021938) and the National Science Foundation (grant numbers: 15
 In addition, the authors would like to acknowledge the contributions of Jing Ming, Sandeep R. Panta, Eswar Damaraju, Anees Abrol, Torran Kahleck, Dylan Wood, Chris Dieringer, Drew Landis, Cory Reed, and many other unnamed personnel over the years
 who contributed to the development of ``COINSTAC``.
 
+# Community Guidelines
+
+We encourage collaboration from the community, including creating a computation to run in COINSTAC, conducting a study using COINSTAC, or contributing to our open-source code base.
+
 # References
