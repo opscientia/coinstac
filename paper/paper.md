@@ -97,15 +97,15 @@ In the past, data-specific collaborative efforts have included either aggregatin
 
 In a recent study [@Gazula846386], the Global Imaging Genetics of Adolescents consortium performed a decentralized voxel-based morphometry analysis of structural magnetic resonance imaging data across two sites to examine the structural changes in the brain related to age, body mass index, and smoking. The code used for the analysis [@coinstacvbm] and sample data [@coinstacvbmsampledata] are publicly available on GitHub.
 
+# Community Guidelines
+
+We encourage collaboration from the community, including creating a computation to run in COINSTAC, conducting a study using COINSTAC, or contributing to our open-source code base.
+
 # Acknowledgements
 
 This work was funded by the National Institutes of Health (grant numbers: R01EB005846, 1R01DA040487,
 P20GM103472/5P20RR021938) and the National Science Foundation (grant numbers: 1539067 and 1631819).
 In addition, the authors would like to acknowledge the contributions of Jing Ming, Sandeep R. Panta, Eswar Damaraju, Anees Abrol, Torran Kahleck, Dylan Wood, Chris Dieringer, Drew Landis, Cory Reed, and many other unnamed personnel over the years
 who contributed to the development of ``COINSTAC``.
-
-# Community Guidelines
-
-We encourage collaboration from the community, including creating a computation to run in COINSTAC, conducting a study using COINSTAC, or contributing to our open-source code base.
 
 # References
