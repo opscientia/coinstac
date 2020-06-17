@@ -79,7 +79,7 @@ In the past, data-specific collaborative efforts have included either aggregatin
 
 1. Decentralizing analyses and computation.
 
-* Analysis pipelines only interact with site data on their own computers. Derived data, such as model weights, from each user may be sent to a central compute node, but never raw data. Over a dozen local and decentralized computations/algorithms have been developed already, with more coming.
+* Analysis pipelines only interact with site data on their own computers. Aggregate derived data, such as model weights, from each user may be sent to a central compute node, but never raw data. Over a dozen local and decentralized computations/algorithms have been developed already, with more coming.
 
 * A central compute node performs a complimentary component of the group analysis by coordinating between the various data nodes participating in a consortium. This node may trigger adjusted computations on user machines to improve a model.
 
@@ -90,6 +90,9 @@ In the past, data-specific collaborative efforts have included either aggregatin
 * Because machine learning algorithms can be designed to model outcomes via artifacts of analysis pipelines, COINSTAC keeps data safely and conveniently on site computers.
 
 3. Applying differential privacy strategies to further enhance anonymization of private data while still permitting collaboration.
+
+* To protect against malicious embedded attacks inside computations, all computations made available in COINSTAC are manually vetted.
+
 
 # Acknowledgements
 
