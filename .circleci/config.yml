@@ -5,6 +5,6 @@ jobs:
   build:
     executor:
       name: node/default
-      tag: 'latest'
+      tag: '12.18'
     steps:
       - run: docker ps
