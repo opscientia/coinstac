@@ -60,14 +60,13 @@ challenges, the result being that collaborative group research requires a great 
 coordination. Human and business factors can hamper research from happening at a constructive 
 pace, maybe even forbidding group research to occur at all.
 
-# Software
+# Statement of Need
 The Collaborative Informatics and Neuroimaging Suite Toolkit for Anonymous Computation (``COINSTAC`` [@plis2016coinstac]) is a web-based framework that addresses the aforementioned issues. It provides a platform
 to analyze data stored locally across multiple organizations without the need for pooling the data at any point 
-during the analysis, enabling decentralization. It is intended to be the ultimate hub by which researchers can build 
-statistical [@ming2017coinstac] or machine learning models [@gazula2018decentralized] collaboratively in a decentralized fashion. This framework 
-implements a message-passing infrastructure that allows large-scale analysis of decentralized data 
-with results on par with those that would have been obtained if the data were centralized. Because
-there is no pooling of data, COINSTAC protects the privacy of individual datasets. In addition, COINSTAC also offers differentially private algorithms for enhanced protection from reidentification attacks. Differential privacy is a framework to control the risk that individual data points can be inferred from the output of the algorithm [@dwork2014algorithmic]. Computations can be local or decentralized and are deployed using a containerized model. COINSTAC simulator, a simulation environment for algorithm developers to build COINSTAC computations, is also available. After developers ensure compatibility of their computations with COINSTAC through the simulator, these computations can then be made available within the COINSTAC platform.
+during the analysis, enabling decentralization.
+
+# Software
+COINSTAC is intended to be the ultimate hub by which researchers can build  statistical [@ming2017coinstac] or machine learning models [@gazula2018decentralized] collaboratively in a decentralized fashion. This framework  implements a message-passing infrastructure that allows large-scale analysis of decentralized data  with results on par with those that would have been obtained if the data were centralized. Because there is no pooling of data, COINSTAC protects the privacy of individual datasets. In addition, COINSTAC also offers differentially private algorithms for enhanced protection from reidentification attacks. Differential privacy is a framework to control the risk that individual data points can be inferred from the output of the algorithm [@dwork2014algorithmic]. Computations can be local or decentralized and are deployed using a containerized model. COINSTAC simulator, a simulation environment for algorithm developers to build COINSTAC computations, is also available. After developers ensure compatibility of their computations with COINSTAC through the simulator, these computations can then be made available within the COINSTAC platform.
 
 ![A graphical representation of decentralization in COINSTAC](coinstac-first-example.png)
 
